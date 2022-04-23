@@ -18,7 +18,7 @@ The main purpose of the code is to display the simulation of a robot with a targ
 ## Flowchart
 
 
-## supporting files (robot image, map with obstacles target and the robot):
+## supporting files (robot image, map with obstacles, target and the robot):
 ![image](https://user-images.githubusercontent.com/103934864/164878302-35250bac-3498-4e97-83ad-dea3481c71ed.png) 
 ![image](https://user-images.githubusercontent.com/103934864/164892142-85182813-a515-45dc-a763-6346058f9641.png)
 
