@@ -25,8 +25,9 @@ The main purpose of the code is to display the simulation of a robot with a targ
 
 
 ## Further improvments
-- The robot needs to detect if there is obstacles on the starting point or the target
+- The robot needs to detect if there is obstacles on the starting point or on the target
 - The robot needs to improve creating new paths in a more advanced way when meeting obstacles
+- A better code to include the base of creating paths when the robot detects an obstacle
 
 ## Code:
 
