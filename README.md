@@ -20,7 +20,8 @@ The main purpose of the code is to display the simulation of a robot with a targ
 
 ## supporting files (robot image, map with obstacles, target and the robot):
 ![image](https://user-images.githubusercontent.com/103934864/164878302-35250bac-3498-4e97-83ad-dea3481c71ed.png) 
-![image](https://user-images.githubusercontent.com/103934864/164892142-85182813-a515-45dc-a763-6346058f9641.png)
+![image](https://user-images.githubusercontent.com/103934864/164892142-85182813-a515-45dc-a763-6346058f9641.png) 
+(As shown in the image above of the map showing everything placed correctly from the robot to the obstacles to the target, the robot reaches the target sucessfully and stops but still collides with the obstacles due to the diffculty of implementing a code for the robot to create new paths)
 
 
 
@@ -28,9 +29,10 @@ The main purpose of the code is to display the simulation of a robot with a targ
 - The robot needs to detect if there is obstacles on the starting point or on the target
 - The robot needs to improve creating new paths in a more advanced way when meeting obstacles
 - A better code to include the base of creating paths when the robot detects an obstacle
+- implement this code on a bigger scale with 3D preview
+- making the robot reach the target faster
 
 ## Code:
-
 from roboticstoolbox import Bicycle, RandomPath, VehicleIcon, RangeBearingSensor,LandmarkMap
 from math import pi , atan2
 import matplotlib.pyplot as plt
